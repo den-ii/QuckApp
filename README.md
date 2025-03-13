@@ -56,7 +56,7 @@ By adhering to these guidelines, you ensure that your app's branding appears pro
    ```sh
    expo start
    ```
-4. Or download android apk [here]()
+4. Or download android apk [here](https://drive.google.com/file/d/101CNmp4uy1PnTLpq2FMWuO7Ow2EhrjtD/view?usp=sharing)
 
 ## License
 
