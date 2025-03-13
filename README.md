@@ -27,6 +27,7 @@ This project takes more than just a few minutes or an hour to complete due to se
 - Designing and creating an app icon
 - Setting up the splash screen and Icon: You can't just add any icon and expect it to be a percefect splash screen and icon. You have to use expo doc to structure your icon on Figma to be perfect. Check [here](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.figma.com/community/file/1155362909441341285/expo-app-icon-splash&ved=2ahUKEwjyh7bCzoaMAxVkVUEAHVORJ2oQFnoECAkQAQ&usg=AOvVaw2mBMefVF6L9XA2Dm2FHoq-) and [docs](https://docs.expo.dev/develop/user-interface/splash-screen-and-app-icon/#export-the-icon-image-as-a-png) for more info, if you doubt.
 - Uploading to GitHub
+- Uploading apk to Google drive
 - Writing a README
 - Build time and other optimizations
 
