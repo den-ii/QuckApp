@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# QuickApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+QuickApp is an Expo React Native application that demonstrates authentication and a splash screen. If you're curious about how it works, check the documentation [here](https://docs.expo.dev/router/reference/authentication/) for further details.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Authentication UI**
+- **Splash Screen**
+- **State Management with Pull-State** (Preferred over React Context for simplicity)
+- **Potential Enhancements**:
+  - AsyncStorage for persistent authentication state
+  - Expo Authentication and Expo Secure Store for Face ID or Fingerprint authentication
+  - KeyboardAvoidingView to ensure the keyboard does not overlap input fields
 
-   ```bash
-   npm install
+## Why Pull-State?
+
+I chose Pull-State over React Context because React Context, especially with TypeScript, can introduce additional complexity. Pull-State provides a more streamlined state management solution.
+
+## Future Enhancements
+
+While this demo does not include a fully-fledged authentication system, integrating AsyncStorage could enable persistent authentication. Additionally, implementing Face ID or fingerprint authentication using Expo Secure Store could further enhance security.
+
+## Development Time Considerations
+
+This project takes more than just a few minutes or an hour to complete due to several factors:
+
+- Designing and creating an app icon
+- Setting up the splash screen
+- Uploading to GitHub
+- Writing a README
+- Build time and other optimizations
+
+## Installation & Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/den-ii/QuickApp.git
+   cd QuickApp
    ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
+2. Install dependencies:
+   ```sh
+   npm install  # or yarn install
    ```
+3. Run the project:
+   ```sh
+   expo start
+   ```
+4. Or download android apk [here]()
 
-In the output, you'll find options to open the app in a
+## License
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License.
