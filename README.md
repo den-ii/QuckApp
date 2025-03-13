@@ -14,7 +14,7 @@ QuickApp is an Expo React Native application that demonstrates authentication an
 
 ## Why Pull-State?
 
-I chose Pull-State over React Context because React Context, especially with TypeScript, can introduce additional complexity. Pull-State provides a more streamlined state management solution.
+I chose Pull-State over React Context because React Context, especially with TypeScript, because React Context feels bulky. Pull-State provides a more streamlined state management solution.
 
 ## Future Enhancements
 
